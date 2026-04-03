@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router';
-
+import { FaGithub } from "react-icons/fa";
 const Header = () => {
 
    const links=
@@ -12,8 +12,8 @@ const Header = () => {
 
 
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div className='bg-white'>
+            <div className="navbar shadow-sm  mx-auto px-5  md:px-10 lg:px-20">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,7 +27,7 @@ const Header = () => {
     </div>
     <div className='flex items-center gap-2'>
        <NavLink className="hover:underline" to="/"><img className='w-10 h-10' src="/src/assets/logo.png" alt="" /></NavLink>
-      <h1 className="text-xl">HERO.IO</h1>
+      <h1 className="text-xl gradient-text font-bold">HERO.IO</h1>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -36,7 +36,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn gradient-bg">Button</a>
+    <a href="https://github.com/hero-io" className="btn gradient-bg border-none"><FaGithub /> Contribute</a>
   </div>
 </div>
         </div>

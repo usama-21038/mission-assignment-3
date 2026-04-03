@@ -1,9 +1,14 @@
 // Application.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Application = ({ app }) => {
+  const navigate = useNavigate();
   return (
-    <div className="border rounded-lg shadow-sm bg-white p-4 flex flex-col min-h-[180px]">
+    <div
+      className="border rounded-lg shadow-sm bg-white p-4 flex flex-col min-h-[180px] cursor-pointer hover:shadow-lg transition"
+      onClick={() => navigate(`/apps/${app.id}`)}
+    >
       <div className="bg-gray-100 rounded w-full h-24 flex items-center justify-center mb-2">
         <img
           src={app.image || "https://via.placeholder.com/80"}

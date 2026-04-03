@@ -1,4 +1,7 @@
 
+import { NavLink } from "react-router";
+import TrendingApps from "./TrendingApps";
+
 const Home = () => {
     return (
         <div className='bg-gray-50'>
@@ -6,8 +9,8 @@ const Home = () => {
             <h1 className='text-4xl font-bold text-black'>We Build  <br /><span className='gradient-text'>Productive</span> Apps</h1>
             <p className='md:mx-10 lg:mx-20 my-4 md:my-8 text-gray-600'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. <br />Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className='flex justify-center gap-5 pb-5'>
-                <a href="" className='btn btn-outline text-black px-5 font-semibold border-gray-700 hover:bg-purple-500'><img className='w-7 h-8' src="/src/assets/icons8-google-play-48.png" alt="" /> Google Play</a>
-                <a href="" className='btn btn-outline text-black px-5 font-semibold border-gray-700 hover:bg-purple-500'><img className='w-7 h-8' src="/src/assets/icons8-app-store-48.png" alt="" /> App store</a>
+                <a href="https://play.google.com/store/games?device=windows" className='btn btn-outline text-black px-5 font-semibold border-gray-700 hover:bg-purple-500'><img className='w-7 h-8' src="/src/assets/icons8-google-play-48.png" alt="" /> Google Play</a>
+                <a href="https://www.apple.com/app-store/" className='btn btn-outline text-black px-5 font-semibold border-gray-700 hover:bg-purple-500'><img className='w-7 h-8' src="/src/assets/icons8-app-store-48.png" alt="" /> App store</a>
             </div>
             </section>  
             {/* second section */}
@@ -42,13 +45,17 @@ const Home = () => {
             </section>
 
 
-            {/* tranding apps sections */}
-            <section className='text-center items-center'>
-<div className='my-10 mx-auto'>
-    <h1 className='text-black text-xl font-bold mb-2'>Trending Apps</h1>
-<p className='text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
-</div>
-            </section>
+                        {/* trending apps section */}
+                        <section className='text-center items-center w-11/12 mx-auto'>
+                            <div className='my-10 mx-auto'>
+                                <h1 className='text-black text-xl font-bold mb-2'>Trending Apps</h1>
+                                <p className='text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
+                            </div>
+                            <TrendingApps />
+                        </section>
+                         <div className='mx-auto items-center text-center'>
+                <NavLink to="/apps" className='btn gradient-bg border-none px-10 my-5'>Show All </NavLink>
+            </div>
         </div>
     );
 };
