@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://source.unsplash.com/300x300/?chat",
+    "image": "https://img.icons8.com/color/512/chat.png",
     "title": "Chat App",
     "companyName": "TechSoft",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?music",
+    "image": "https://img.icons8.com/color/512/music.png",
     "title": "Music Player",
     "companyName": "SoundWave",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?fitness",
+    "image": "https://img.icons8.com/color/512/fitness.png",
     "title": "Fitness Tracker",
     "companyName": "FitLife",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?shopping",
+    "image": "https://img.icons8.com/color/512/shopping-cart.png",
     "title": "ShopEasy",
     "companyName": "BuyNow Ltd",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?food",
+    "image": "https://img.icons8.com/color/512/meal.png",
     "title": "Food Delivery",
     "companyName": "QuickBite",
     "id": 5,
@@ -89,9 +89,8 @@
       { "name": "5 star", "count": 980 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?travel",
+    "image": "https://img.icons8.com/color/512/worldwide-location.png",
     "title": "Travel Guide",
     "companyName": "ExploreWorld",
     "id": 6,
@@ -109,7 +108,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?education",
+    "image": "https://img.icons8.com/color/512/online-learning.png",
     "title": "LearnHub",
     "companyName": "EduTech",
     "id": 7,
@@ -127,7 +126,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?finance",
+    "image": "https://img.icons8.com/color/512/money.png",
     "title": "Money Manager",
     "companyName": "FinTrack",
     "id": 8,
@@ -145,7 +144,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?video",
+    "image": "https://img.icons8.com/color/512/video.png",
     "title": "Video Player",
     "companyName": "MediaPlus",
     "id": 9,
@@ -163,7 +162,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/300x300/?weather",
+    "image": "https://img.icons8.com/color/512/partly-cloudy-day.png",
     "title": "Weather Now",
     "companyName": "SkyCast",
     "id": 10,
@@ -180,9 +179,8 @@
       { "name": "5 star", "count": 550 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?game",
+    "image": "https://img.icons8.com/color/512/controller.png",
     "title": "Arcade Game",
     "companyName": "FunGames",
     "id": 11,
@@ -199,9 +197,8 @@
       { "name": "5 star", "count": 1600 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?photo",
+    "image": "https://img.icons8.com/color/512/edit-image.png",
     "title": "Photo Editor",
     "companyName": "PixelLab",
     "id": 12,
@@ -218,9 +215,8 @@
       { "name": "5 star", "count": 1170 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?notes",
+    "image": "https://img.icons8.com/color/512/note.png",
     "title": "Notes App",
     "companyName": "NoteMaster",
     "id": 13,
@@ -237,9 +233,8 @@
       { "name": "5 star", "count": 490 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?calendar",
+    "image": "https://img.icons8.com/color/512/calendar.png",
     "title": "Calendar Pro",
     "companyName": "TimeTech",
     "id": 14,
@@ -256,9 +251,8 @@
       { "name": "5 star", "count": 330 }
     ]
   },
-
   {
-    "image": "https://source.unsplash.com/300x300/?vpn",
+    "image": "https://img.icons8.com/color/512/vpn.png",
     "title": "Secure VPN",
     "companyName": "SafeNet",
     "id": 15,
@@ -275,5 +269,4 @@
       { "name": "5 star", "count": 1650 }
     ]
   }
-
 ]
